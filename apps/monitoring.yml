@@ -22,6 +22,14 @@ spec:
             dashboards:
               enabled: true
               searchNamespace: ALL
+        prometheus:
+          service:
+            type: NodePort
+            nodePort: 30091
+        NodeExporter:
+          service:
+            type: NodePort
+            nodePort: 30092
 
   destination:
     server: 'https://kubernetes.default.svc'
