@@ -12,7 +12,8 @@ spec:
     helm:
       values: |
         gitlabUrl: https://gitlab.com/
-        runnerRegistrationToken: ""
+        runnerRegistrationToken: "glrt-Sw0Ee_9E31itVyUa7T1rH2M6MQpvOjEKcDoxZ2psOHcKdDozCnU6cTRlZDIc.01.1o0d4temj"
+        runnerToken: "glrt-Sw0Ee_9E31itVyUa7T1rH2M6MQpvOjEKcDoxZ2psOHcKdDozCnU6cTRlZDIc.01.1o0d4temj"
         livenessProbe:
           initialDelaySeconds: 60
           timeoutSeconds: 15
