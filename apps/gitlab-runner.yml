@@ -12,7 +12,7 @@ spec:
     helm:
       values: |
         gitlabUrl: https://gitlab.com/
-        runnerRegistrationToken: "glrt-ytW_-oRxzmnF-sjPaWpj2M6MQpv0jEKcDoxZ2ps0HckdDozCnU6cTRlZD1c.01.la0m1ak44"
+        runnerToken: "glrt-ytW_-oRxzmnF-sjPaWpj2M6MQpv0jEKcDoxZ2ps0HckdDozCnU6cTRlZD1c.01.la0m1ak44"
         runners:
           config: |
             [[runners]]
